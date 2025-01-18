@@ -39,3 +39,12 @@ img{
   background-color: rgb(245, 171, 87);
   text-align: center;
 }
+.video:hover{
+  transition-duration: 1s;
+  width: 380px;
+  height: auto;
+  border-radius: 20px;
+}
+video{
+  border-radius: 15px;
+}
