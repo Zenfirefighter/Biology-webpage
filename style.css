@@ -17,6 +17,7 @@ body{
 
 img{
   border-radius: 15px;
+  margin-right: 20px;
 }
 
 .image:hover{
@@ -24,6 +25,8 @@ img{
   width: 180px;
   height: auto;
   border-radius: 20px;
+  margin-right: 5%;
+
 }
 .italics{
   font-style: italic;
@@ -33,7 +36,8 @@ img{
 
 }
 .vid{
-  width: 700px;
+  border: 3px solid rgb(245, 171, 87);
+  margin-bottom: 30px;
 }
 #head{
   background-color: rgb(245, 171, 87);
@@ -44,7 +48,20 @@ img{
   width: 380px;
   height: auto;
   border-radius: 20px;
+  
 }
 video{
   border-radius: 15px;
+
+}
+.video{
+  float:inherit;
+}
+.container{
+  position: relative;
+  margin-bottom: 5%;
+}
+footer p{
+  font-size: 18px;
+  font-style: italic;
 }
