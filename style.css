@@ -67,5 +67,11 @@ footer p{
 }
 div h3 em{
   font-style: italic;
-  text-transform: uppercase;
+  text-transform: capitalize;
+}
+
+table:hover{
+  font-size: 22px;
+  transition-duration: 1s;
+
 }
