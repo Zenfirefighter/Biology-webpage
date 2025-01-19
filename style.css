@@ -65,3 +65,7 @@ footer p{
   font-size: 18px;
   font-style: italic;
 }
+div h3 em{
+  font-style: italic;
+  text-transform: uppercase;
+}
