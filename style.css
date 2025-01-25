@@ -50,6 +50,18 @@ img{
   border-radius: 20px;
   
 }
+.image:not(:hover){
+  transition-duration: 1s;
+  width: 150px;
+  height: auto;
+  border-radius: 20px;
+}
+.video:not(:hover){
+  transition-duration: 0.5s;
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+}
 video{
   border-radius: 15px;
 
@@ -70,8 +82,8 @@ div h3 em{
   text-transform: capitalize;
 }
 
-table:hover{
+/* table:hover{
   font-size: 22px;
   transition-duration: 1s;
 
-}
+} */
